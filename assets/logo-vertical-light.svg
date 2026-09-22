@@ -1,0 +1,11 @@
+<svg width="200" height="250" viewBox="0 0 200 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="52" y="10" width="96" height="96" stroke="#FAFAF7" stroke-width="1.5"/>
+  <path d="M72 82V29H92.4C104.6 29 111.7 34.7 111.7 44.8C111.7 52.5 106.5 57.7 98.5 59.5L116.5 82H105L88.3 60.9H81.2V82H72Z" stroke="#FAFAF7" stroke-width="2"/>
+  <path d="M81.2 37V53.2H91.2C98.5 53.2 102.4 50.4 102.4 44.9C102.4 39.5 98.5 37 91.2 37H81.2Z" fill="#FAFAF7"/>
+  <path d="M107 29H123V82H114.5V37.2H107V29Z" fill="#FAFAF7"/>
+  <path d="M123 37.2L132 29V82H123V37.2Z" fill="#9D8468"/>
+  <text x="100" y="153" text-anchor="middle" fill="#FAFAF7" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="3">REGINALDO</text>
+  <text x="100" y="178" text-anchor="middle" fill="#CFC8BD" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="4">PLANEJADOS</text>
+  <path d="M55 202H145" stroke="#6E726D"/>
+  <text x="100" y="226" text-anchor="middle" fill="#9D8468" font-family="Georgia, serif" font-size="12">marcenaria &amp; móveis sob medida</text>
+</svg>
