@@ -1,4 +1,5 @@
 .vercel/
+.serena/
 work/
 node_modules/
 .env

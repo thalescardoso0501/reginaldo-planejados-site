@@ -239,22 +239,22 @@ h2 { margin: 0; font-family: var(--serif); font-size: clamp(3.8rem, 7vw, 7rem); 
   .brand-copy strong { font-size: .63rem; }
   .brand-copy span { font-size: .45rem; }
   .header-cta { display: none; }
-  .hero { min-height: 47rem; }
+  .hero { min-height: 0; }
   .hero-media img { object-position: 62% center; }
   .hero-overlay { background: linear-gradient(90deg, rgba(20, 27, 25, .9), rgba(20, 27, 25, .34)), linear-gradient(0deg, rgba(20, 27, 25, .82), rgba(20, 27, 25, .06) 62%, transparent 100%); }
-  .hero-content { min-height: 47rem; padding-top: 7rem; padding-bottom: 6.8rem; }
+  .hero-content { min-height: 0; padding-top: 7rem; padding-bottom: 7rem; }
   .hero-kicker { max-width: 16rem; margin-bottom: 1.3rem; font-size: .56rem; }
   .hero-title { max-width: 8.5ch; font-size: clamp(4rem, 16.5vw, 5.8rem); line-height: .84; }
   .hero-bottom { display: grid; gap: 2rem; margin-top: 3rem; }
   .hero-intro { max-width: 19rem; font-size: .8rem; line-height: 1.65; }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 1.35rem; }
   .button { min-height: 3.05rem; padding-inline: 1rem; font-size: .58rem; }
-  .hero-gallery { right: 1rem; bottom: 6.7rem; top: auto; width: 13rem; transform: none; }
+  .hero-gallery { position: static; width: 100%; max-width: none; margin-top: 2.7rem; transform: none; }
   .hero-gallery-heading { margin-bottom: .45rem; }
-  .hero-gallery-thumbs { display: flex; gap: .4rem; }
+  .hero-gallery-thumbs { display: flex; gap: .7rem; }
   .hero-gallery-item { display: block; flex: 1; padding: 0; }
-  .hero-gallery-item img { width: 100%; height: 2.5rem; }
-  .hero-gallery-item span { display: block; margin-top: .3rem; font-size: .42rem; white-space: nowrap; }
+  .hero-gallery-item img { width: 100%; height: 4rem; }
+  .hero-gallery-item span { display: block; margin-top: .4rem; font-size: .46rem; line-height: 1.25; white-space: normal; }
   .hero-gallery-item:not(.is-active) { opacity: .8; }
   .hero-scroll { right: 1rem; bottom: 1.2rem; left: 1rem; font-size: .48rem; }
   .manifesto, .solutions, .inspirations, .process, .about, .contact { padding-block: 6.5rem; }
@@ -264,17 +264,17 @@ h2 { margin: 0; font-family: var(--serif); font-size: clamp(3.8rem, 7vw, 7rem); 
   .manifesto-rule { margin-top: 3.5rem; }
   .split-heading, .inspirations-heading { margin-bottom: 3.8rem; }
   .solutions-layout { display: flex; flex-direction: column-reverse; gap: 3.2rem; }
-  .solutions-feature { width: 86%; margin-left: auto; }
+  .solutions-feature { width: 100%; margin-left: 0; }
   .solutions-feature figcaption { display: grid; gap: .5rem; }
   .solutions-feature figcaption span:last-child { max-width: none; text-align: left; }
   .solution-row { grid-template-columns: 2rem minmax(0, 1fr) 1rem; gap: .9rem; min-height: 4.6rem; }
   .solution-name { font-size: 1.65rem; }
   .inspirations-title-wrap { display: block; }
   .heading-note { max-width: 20rem; margin-top: 2rem; font-size: .75rem; }
-  .inspiration-grid { display: flex; flex-wrap: nowrap; gap: 1rem; margin-inline: -1rem; padding-inline: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
-  .inspiration-grid::-webkit-scrollbar { display: none; }
-  .inspiration-item, .inspiration-item-large, .inspiration-item-small, .inspiration-item-wide, .inspiration-offset { flex: 0 0 78vw; margin-top: 0; scroll-snap-align: start; }
-  .inspiration-item-large .image-frame, .inspiration-item-small .image-frame, .inspiration-item-wide .image-frame { aspect-ratio: .82; }
+  .inspiration-grid { display: grid; grid-template-columns: 1fr; gap: 3.4rem; margin-inline: 0; padding-inline: 0; overflow: visible; }
+  .inspiration-item, .inspiration-item-large, .inspiration-item-small, .inspiration-item-wide, .inspiration-offset { width: 100%; margin-top: 0; }
+  .inspiration-item-large, .inspiration-item-small, .inspiration-item-wide { grid-column: 1; }
+  .inspiration-item-large .image-frame, .inspiration-item-small .image-frame, .inspiration-item-wide .image-frame { aspect-ratio: 4 / 5; min-height: 20rem; }
   .process-intro { margin-bottom: 4.5rem; }
   .process-track { display: grid; grid-template-columns: 1fr; gap: 2.5rem; padding-left: 2.5rem; }
   .process-line { top: 0; bottom: 0; left: .75rem; width: 1px; height: auto; }
@@ -283,7 +283,7 @@ h2 { margin: 0; font-family: var(--serif); font-size: clamp(3.8rem, 7vw, 7rem); 
   .process-step h3 { margin-bottom: .6rem; font-size: 2.15rem; }
   .process-step p { max-width: 20rem; }
   .about-grid { display: flex; flex-direction: column; align-items: stretch; gap: 4rem; }
-  .about-image-wrap { width: 88%; padding-left: 1rem; }
+  .about-image-wrap { width: 100%; padding-left: 0; }
   .about-stamp { right: -1rem; bottom: 2rem; width: 6rem; height: 6rem; font-size: 1.65rem; }
   .about-content .section-index { margin-bottom: 3.5rem; }
   .about-lead { margin-top: 2.8rem; font-size: 1.6rem; }
